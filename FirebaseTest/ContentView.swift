@@ -9,8 +9,14 @@
 import SwiftUI
 
 struct ContentView: View {
+	var pendingMessage = PendingMessage.default
+	
     var body: some View {
+		Button (action: {
+			FIRFirestoreService.shared.create(for: self.pendingMessage, in: <#T##MyCollectionReference#>)
+		}) {
         Text("Hello World")
+		}
     }
 }
 

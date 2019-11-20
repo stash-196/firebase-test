@@ -18,6 +18,9 @@
 		4238D4112369703B002463CD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4238D4102369703B002463CD /* GoogleService-Info.plist */; };
 		4238D4122369703B002463CD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4238D4102369703B002463CD /* GoogleService-Info.plist */; };
 		4238D4132369703B002463CD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4238D4102369703B002463CD /* GoogleService-Info.plist */; };
+		424985032373132100D809CF /* FirebaseTest in Resources */ = {isa = PBXBuildFile; fileRef = 424985022373132100D809CF /* FirebaseTest */; };
+		424985042373132100D809CF /* FirebaseTest in Resources */ = {isa = PBXBuildFile; fileRef = 424985022373132100D809CF /* FirebaseTest */; };
+		424985052373132100D809CF /* FirebaseTest in Resources */ = {isa = PBXBuildFile; fileRef = 424985022373132100D809CF /* FirebaseTest */; };
 		7A97627A3240122C6FC79144 /* Pods_FirebaseTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABC03712B39C259ACD51E91 /* Pods_FirebaseTestTests.framework */; };
 		C1968045017BDE9DC63D26A0 /* Pods_FirebaseTest_FirebaseTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B0F7B9B0CEDF4F25E67F169 /* Pods_FirebaseTest_FirebaseTestUITests.framework */; };
 		CEDBF65D26CBF2D15BC58028 /* Pods_FirebaseTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C74856806F196DC8A9F29E77 /* Pods_FirebaseTest.framework */; };
@@ -59,6 +62,7 @@
 		4238D40223696FDE002463CD /* FirebaseTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseTestUITests.swift; sourceTree = "<group>"; };
 		4238D40423696FDE002463CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4238D4102369703B002463CD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		424985022373132100D809CF /* FirebaseTest */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FirebaseTest; sourceTree = SOURCE_ROOT; };
 		4298B9B023698671005A99B0 /* FirebaseTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirebaseTest.entitlements; sourceTree = "<group>"; };
 		4B0F7B9B0CEDF4F25E67F169 /* Pods_FirebaseTest_FirebaseTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseTest_FirebaseTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		641F73072BFD48A1DD9EBC5E /* Pods-FirebaseTest-FirebaseTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTest-FirebaseTestUITests.release.xcconfig"; path = "Target Support Files/Pods-FirebaseTest-FirebaseTestUITests/Pods-FirebaseTest-FirebaseTestUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -121,6 +125,7 @@
 		4238D3DF23696FDA002463CD /* FirebaseTest */ = {
 			isa = PBXGroup;
 			children = (
+				424985022373132100D809CF /* FirebaseTest */,
 				4298B9B023698671005A99B0 /* FirebaseTest.entitlements */,
 				4238D3E023696FDA002463CD /* AppDelegate.swift */,
 				4238D3E223696FDA002463CD /* SceneDelegate.swift */,
@@ -296,6 +301,7 @@
 				4238D4112369703B002463CD /* GoogleService-Info.plist in Resources */,
 				4238D3EA23696FDD002463CD /* Preview Assets.xcassets in Resources */,
 				4238D3E723696FDD002463CD /* Assets.xcassets in Resources */,
+				424985032373132100D809CF /* FirebaseTest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4238D4122369703B002463CD /* GoogleService-Info.plist in Resources */,
+				424985042373132100D809CF /* FirebaseTest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4238D4132369703B002463CD /* GoogleService-Info.plist in Resources */,
+				424985052373132100D809CF /* FirebaseTest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,7 @@ target 'FirebaseTest' do
   # Pods for FirebaseTest
   pod 'Firebase/Core'
   pod 'Firebase/Messaging'
+  pod 'Firebase/Firestore'
 
 
   target 'FirebaseTestTests' do
